@@ -1,3 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+
+}
+body > div{
+	outline:1px dashed black;
+}
+body > div > div{
+	outline:1px dashed red;
+}
+body > div > div > div{
+	outline:1px dashed orange;
+}
+body > div > div > div > div{
+	outline:1px dashed magenta;
+}
+body > div > div > div > div > div {
+	outline:1px dashed cyan;
+}
+body > div > div > div > div > div > div{
+	outline:1px dashed red;
+}
+
+div.container-head{
+	min-height: 200px;
+}
+div.container-content{
+	min-height: 300px;
+}
+div.container-footer{
+	min-height: 200px;
+}
+
+
+div[class|='container'] > div{
+	width: 980px;
+	margin: 0 auto;
+	min-height: inherit;
+	padding-top: 1px;
+}
+
