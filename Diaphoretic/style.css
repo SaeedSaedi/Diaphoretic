@@ -2,7 +2,9 @@
 /* CSS Document */
 
 body{
-
+	background-image: url('./image/bg.jpg');
+	background-repeat: repeat-x;
+	background-color: black;
 }
 body > div{
 	outline:1px dashed black;
@@ -24,13 +26,14 @@ body > div > div > div > div > div > div{
 }
 
 div.container-head{
-	min-height: 200px;
+	min-height: 300px;
 }
 div.container-content{
-	min-height: 300px;
+	min-height: 600px;
 }
 div.container-footer{
 	min-height: 200px;
+	background-image: url('./image/footer.jpg');
 }
 
 
@@ -39,5 +42,30 @@ div[class|='container'] > div{
 	margin: 0 auto;
 	min-height: inherit;
 	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+div.head div.logo{
+	width:200px;
+	min-height:210px;
+	float: left;
+	margin-top:10px;
+}
+div.head div.header, div.head div.menu{
+	width:750px;
+	min-height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+
+}
+div.head div.menu{
+	
+}
+div.head div.menu ul{
+
+}
+div.head div.menu li{
+	
 }
 
