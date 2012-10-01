@@ -47,7 +47,7 @@ div[class|='container'] > div{
 
 div.head div.logo{
 	width:200px;
-	min-height:210px;
+	height:210px;
 	float: left;
 	margin-top:10px;
 	margin-left: 10px;
@@ -61,14 +61,14 @@ div.head div.header, div.head div.menu{
 
 }
 div.head div.header{
-	min-height: 150px;
+	height: 150px;
 }
 div.head div.menu{
-	min-height: 50px;	
+	height: 50px;	
 }
 div.head div.menu ul{
 	width:400px;
-	min-height:inherit;
+	height:inherit;
 	outline:1px dashed red;
 	margin:0 auto;
 	list-style-type: none;
