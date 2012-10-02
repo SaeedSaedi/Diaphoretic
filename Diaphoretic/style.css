@@ -88,3 +88,26 @@ div.head div.menu a{
 
 }
 
+div.content div.sidebar{
+	width:250px;
+	margin-left: 10px;
+	margin-top: 10px;
+	min-height: 580px;
+	float:left;
+}
+
+div.content div.slide{
+	width: 700px;
+	height:300px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div.content div.foot{
+	width:700px;
+	min-height: 270px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
