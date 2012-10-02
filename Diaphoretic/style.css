@@ -46,7 +46,7 @@ div[class|='container'] > div{
 }
 
 div.head div.logo{
-	width:200px;
+	width:250px;
 	height:210px;
 	float: left;
 	margin-top:10px;
@@ -54,7 +54,7 @@ div.head div.logo{
 }
 
 div.head div.header, div.head div.menu{
-	width:750px;
+	width:700px;
 	margin-top: 10px;
 	margin-left: 10px;
 	float:left;
@@ -80,8 +80,11 @@ div.head div.menu li{
 }
 div.head div.menu a{
 	padding:5px 20px;
-	background-color: red;
+	background-image: url('./image/menu.png');
 	text-decoration: none;
-	color:black;
+	border-radius: 5px;
+	font-family: "SF Collegiate";
+	color:#ffa;
+
 }
 
