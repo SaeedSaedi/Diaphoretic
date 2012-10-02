@@ -48,16 +48,16 @@ div[class|='container'] > div{
 div.head div.logo{
 	width:250px;
 	height:210px;
-	float: left;
+	float: right;
 	margin-top:10px;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 
 div.head div.header, div.head div.menu{
 	width:700px;
 	margin-top: 10px;
-	margin-left: 10px;
-	float:left;
+	margin-right: 10px;
+	float:right;
 
 }
 div.head div.header{
@@ -74,8 +74,8 @@ div.head div.menu ul{
 	list-style-type: none;
 }
 div.head div.menu li{
-	float:left;
-	margin-left: 10px;
+	float:right;
+	margin-right: 10px;
 	margin-top: 10px;
 }
 div.head div.menu a{
@@ -90,24 +90,41 @@ div.head div.menu a{
 
 div.content div.sidebar{
 	width:250px;
-	margin-left: 10px;
+	margin-right: 10px;
 	margin-top: 10px;
 	min-height: 580px;
-	float:left;
+	float:right;
 }
 
 div.content div.slide{
 	width: 700px;
 	height:300px;
-	float:left;
-	margin-left: 10px;
+	float:right;
+	margin-right: 10px;
 	margin-top: 10px;
+	position:relative;
 }
 
 div.content div.foot{
 	width:700px;
 	min-height: 270px;
-	float:left;
-	margin-left: 10px;
+	float:right;
+	margin-right: 10px;
 	margin-top: 10px;
+}
+
+div.slide div.slider{
+	width:600px;
+	height:inherit;
+	margin:0 auto;
+}
+div.slide div.back,div.slide div.next{
+	width:30px;
+	height:77px;
+	position: absolute;
+	right:19px;
+	top: 110px;
+}
+div.slide div.next{
+	right:651px;
 }
