@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url('./image/bg.jpg');
+	background-repeat: repeat-x;
+	background-color: black;
+}
+body > div{
+	outline:1px dashed black;
+}
+body > div > div{
+	outline:1px dashed red;
+}
+body > div > div > div{
+	outline:1px dashed orange;
+}
+body > div > div > div > div{
+	outline:1px dashed magenta;
+}
+body > div > div > div > div > div {
+	outline:1px dashed cyan;
+}
+body > div > div > div > div > div > div{
+	outline:1px dashed red;
+}
+
+div.container-head{
+	min-height: 230px;
+}
+div.container-content{
+	min-height: 600px;
+}
+div.container-footer{
+	min-height: 200px;
+	background-image: url('./image/footer.jpg');
+}
+
+
+div[class|='container'] > div{
+	width: 980px;
+	margin: 0 auto;
+	min-height: inherit;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+div.head div.logo{
+	width:250px;
+	height:210px;
+	float: right;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
+div.head div.header, div.head div.menu{
+	width:700px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float:right;
+
+}
+div.head div.header{
+	height: 150px;
+}
+div.head div.menu{
+	height: 50px;	
+}
+div.head div.menu ul{
+	width:400px;
+	height:inherit;
+	outline:1px dashed red;
+	margin:0 auto;
+	list-style-type: none;
+}
+div.head div.menu li{
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+div.head div.menu a{
+	padding:5px 20px;
+	background-image: url('./image/menu.png');
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: "SF Collegiate";
+	color:#ffa;
+
+}
+
+div.content div.sidebar{
+	width:250px;
+	margin-right: 10px;
+	margin-top: 10px;
+	min-height: 580px;
+	float:right;
+}
+
+div.content div.slide{
+	width: 700px;
+	height:300px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+	position:relative;
+}
+
+div.content div.foot{
+	width:700px;
+	min-height: 270px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+div.slide div.slider{
+	width:600px;
+	height:inherit;
+	margin:0 auto;
+}
+div.slide div.back,div.slide div.next{
+	width:30px;
+	height:77px;
+	position: absolute;
+	right:19px;
+	top: 110px;
+}
+div.slide div.next{
+	right:651px;
+}
