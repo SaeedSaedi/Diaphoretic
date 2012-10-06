@@ -199,3 +199,12 @@ div.header div.right h2{
 	margin-top: 10px;
 	margin-right: 35px;
 }
+
+div.container-head div.corner{
+	position:fixed;
+	right:0;
+	width:114px;
+	min-height:114px;
+	background-image:url('./image/corner.png');
+	background-repeat:no-repeat;
+}
