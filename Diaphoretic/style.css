@@ -208,3 +208,17 @@ div.container-head div.corner{
 	background-image:url('./image/corner.png');
 	background-repeat:no-repeat;
 }
+
+div.foot h1{
+	color:white;
+	margin:0 auto;
+	width:200px;
+	margin-top: 10px;
+}
+div.foot div.lastwork{
+	width:200px;
+	height:200px;
+	float:right;
+	margin-top:20px;
+	margin-right: 25px;
+}
