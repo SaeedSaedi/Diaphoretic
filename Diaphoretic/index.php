@@ -42,6 +42,7 @@
 </head>
 <body>
 	<div class="container-head">
+		<div class="corner"></div>
 		<div class="head">
 			<div class="logo"></div>
 			<div class="header">
