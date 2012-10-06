@@ -89,7 +89,12 @@
 				<div class="previous" onclick="previouspic();"></div>
 				<div class="next" onclick="nextpic();"></div>
 			</div>
-			<div class="foot"></div>
+			<div class="foot">
+				<h1>LAST WORK</h1>
+				<div class="lastwork"></div>
+				<div class="lastwork"></div>
+				<div class="lastwork"></div>
+			</div>
 		</div>
 	</div>
 	<div class="container-footer">
