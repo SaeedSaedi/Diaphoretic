@@ -104,8 +104,12 @@
 				<div class="twitter"></div>
 			</div>
 			<div class="left">
-				<div class="copyright"></div>
-				<div class="info"></div>
+				<div class="copyright">
+					<p>test test test test test test test test test test test test</p>
+				</div>
+				<div class="info">
+					<p>test test test test test test test test test test test test</p>
+				</div>
 			</div>
 		</div>
 	</div>
