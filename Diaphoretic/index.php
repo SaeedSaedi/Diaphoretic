@@ -98,7 +98,12 @@
 		</div>
 	</div>
 	<div class="container-footer">
-		<div class="footer"></div>
+		<div class="footer">
+			<div class="facebook"></div>
+			<div class="twitter"></div>
+			<div class="copyright"></div>
+			<div class="info"></div>
+		</div>
 	</div>
 </body>
 </html>
