@@ -107,7 +107,7 @@ div.content div.foot{
 
 /*CSS of slideshow*/
 div.container-slideshow{
-	min-height: 10px;
+	
 	margin: 0 auto;
 	margin-top: 10px;
 	position:relative;
@@ -171,3 +171,87 @@ div.container-slideshow div.previous{
 	background-image: url("./image/btn_prev.gif")
 }
 /*CSS of slideshow*/
+div.right{
+	width:400px;
+	height:inherit;
+	margin-right: 5px;
+	float:right;
+}
+div.left{
+	width:280px;
+	margin-left: 5px;
+	height:inherit;
+	float:left;
+}
+div.header div.right h1,div.header div.right h2{
+	text-align: right;
+	width:350px;
+	float:right;
+
+}
+div.header div.right h1{
+	color:white;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+div.header div.right h2{
+	color:#91c9d7;
+	margin-top: 10px;
+	margin-right: 35px;
+}
+
+div.container-head div.corner{
+	position:fixed;
+	right:0;
+	width:114px;
+	min-height:114px;
+	background-image:url('./image/corner.png');
+	background-repeat:no-repeat;
+}
+
+div.foot h1{
+	color:white;
+	margin:0 auto;
+	width:200px;
+	margin-top: 10px;
+}
+div.foot div.lastwork{
+	width:200px;
+	height:200px;
+	float:right;
+	margin-top:20px;
+	margin-right: 25px;
+}
+
+div.footer div.right{
+	float:right;
+	width:300px;
+	height:70px;
+	margin-right: 10px;
+	margin-top: 120px;
+}
+div.footer div.left{
+	float:left;
+	width:600px;
+	height:70px;
+	margin-left: 50px;
+	margin-top: 120px;
+}
+
+div.footer div.right div.facebook,div.footer div.right div.twitter{
+	width:130px;
+	height:30px;
+	float:right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+div.footer div.right div.twitter{
+
+}
+
+div.footer div.left div.copyright,div.footer div.left div.info{
+	width:500px;
+	height:30px;
+	margin-top: 4px;
+	margin-left: 90px;
+}

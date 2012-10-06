@@ -42,9 +42,16 @@
 </head>
 <body>
 	<div class="container-head">
+		<div class="corner"></div>
 		<div class="head">
 			<div class="logo"></div>
-			<div class="header"></div>
+			<div class="header">
+				<div class="right">
+					<h1>به سایت ما خوش امدید</h1>
+					<h2>در اینجا مطلب خود را پیدا کنید</h2>
+				</div>
+				<div class="left"></div>
+			</div>
 			<div class="menu">
 				<ul>
 					<li><a href="#">home</a></li>
@@ -82,11 +89,25 @@
 				<div class="previous" onclick="previouspic();"></div>
 				<div class="next" onclick="nextpic();"></div>
 			</div>
-			<div class="foot"></div>
+			<div class="foot">
+				<h1>LAST WORK</h1>
+				<div class="lastwork"></div>
+				<div class="lastwork"></div>
+				<div class="lastwork"></div>
+			</div>
 		</div>
 	</div>
 	<div class="container-footer">
-		<div class="footer"></div>
+		<div class="footer">
+			<div class="right">
+				<div class="facebook"></div>
+				<div class="twitter"></div>
+			</div>
+			<div class="left">
+				<div class="copyright"></div>
+				<div class="info"></div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
