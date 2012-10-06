@@ -44,7 +44,13 @@
 	<div class="container-head">
 		<div class="head">
 			<div class="logo"></div>
-			<div class="header"></div>
+			<div class="header">
+				<div class="right">
+					<h1>به سایت ما خوش امدید</h1>
+					<h2>در اینجا مطلب خود را پیدا کنید</h2>
+				</div>
+				<div class="left"></div>
+			</div>
 			<div class="menu">
 				<ul>
 					<li><a href="#">home</a></li>
