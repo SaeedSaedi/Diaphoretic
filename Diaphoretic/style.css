@@ -67,7 +67,7 @@ div.head div.menu{
 	height: 50px;	
 }
 div.head div.menu ul{
-	width:400px;
+	width:600px;
 	height:inherit;
 	outline:1px dashed red;
 	margin:0 auto;
@@ -76,10 +76,10 @@ div.head div.menu ul{
 div.head div.menu li{
 	float:right;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 div.head div.menu a{
-	padding:5px 20px;
+	padding:3px 48px;
 	background-image: url('./image/menu.png');
 	text-decoration: none;
 	border-radius: 5px;
@@ -96,14 +96,6 @@ div.content div.sidebar{
 	float:right;
 }
 
-div.content div.slide{
-	width: 700px;
-	height:300px;
-	float:right;
-	margin-right: 10px;
-	margin-top: 10px;
-	position:relative;
-}
 
 div.content div.foot{
 	width:700px;
@@ -113,18 +105,69 @@ div.content div.foot{
 	margin-top: 10px;
 }
 
-div.slide div.slider{
-	width:600px;
-	height:inherit;
-	margin:0 auto;
+/*CSS of slideshow*/
+div.container-slideshow{
+	min-height: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position:relative;
 }
-div.slide div.back,div.slide div.next{
-	width:30px;
-	height:77px;
-	position: absolute;
-	right:19px;
+div.container-slideshow div.slideshow{
+	margin: 0 auto;
+	min-height: inherit;
+	padding-top: 1px;
+}
+div.slideshow{
+	position:relative;
+	background-color: black;
+	overflow: hidden;
+}
+
+div.slidebar div{
+	outline: none;
+	float: left;
+}
+div.slideshow div.selector{
+	height: 13px;
+	position:absolute;
+	left: 15px;
+}
+div.selector ul{
+	list-style-type: none;
+	width: 75px;
+	height: inherit;
+	margin: 0 auto;
+}
+div.selector ul li{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-image: url('./image/circle.png')
+}
+div.selector ul li:hover{
+	background-image: url('./image/circlea.png')
+}
+div.selector ul li.active{
+	background-image: url('./image/circlea.png')
+}
+div.container-slideshow div.previous,div.container-slideshow div.next{
+	width: 30px;
+	height: 77px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position:absolute;
 	top: 110px;
+	
 }
-div.slide div.next{
-	right:651px;
+div.container-slideshow div.next{
+	left:660px;
+	background-image: url("./image/btn_next.gif")
 }
+div.container-slideshow div.previous{
+	left:30px;
+	background-image: url("./image/btn_prev.gif")
+}
+/*CSS of slideshow*/
