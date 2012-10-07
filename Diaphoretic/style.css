@@ -29,7 +29,7 @@ div.container-head{
 	min-height: 230px;
 }
 div.container-content{
-	min-height: 600px;
+	min-height: 650px;
 }
 div.container-footer{
 	min-height: 200px;
@@ -93,6 +93,8 @@ div.content div.sidebar{
 	margin-top: 10px;
 	min-height: 580px;
 	float:right;
+	position:relative;
+	z-index: 2;
 }
 
 .sidebar .text{
@@ -297,4 +299,27 @@ div.copyright p,div.info p{
 }
 div.info p{
 
+}
+
+
+div.sidebar div.title,div.sidebar div.txt{
+	width:230px;
+	height:30px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+
+div.sidebar div.txt{
+	height:150px;
+}
+
+div.sidebar div.title p{
+	color:white;
+	float:right;
+}
+div.sidebar div.txt p{
+	color:white;
+	float:right;
 }
