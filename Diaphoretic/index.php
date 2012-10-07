@@ -65,15 +65,17 @@
 	<div class="container-content">
 		<div class="content">
 			<div class="sidebar">
-					سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا
-				<form>
-					<caption >پیشنهادات و انتقادات</caption>
-					 <input type="text" name="firstname" style="background-color:#1E0E09" placeholder="نام"><br>
-					 <input type="text" name="lastname" style="background-color:#1E0E09" placeholder="نام خانوادگی"><br>
-					 <input type="email" name="email" style="background-color:#1E0E09"><br>
-					<textarea rows="10" cols="30" style="background-color:#1E0E09">
-					
-					</textarea>
+					سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلابلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	بلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	بلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا
+				<form action="sendmail.php" method="post">
+					<fieldset style="border-color:#1E0E09" >
+						 <legend>پیشنهادات و انتقادات</legend>
+						 <input type="text" name="firstname" class="text" placeholder="نام"><br>
+						 <input type="email" name="email" class="text" placeholder="ایمیل"><br>
+						 <input type="text" name="subject" class="text" placeholder="موضوع"><br>
+						<textarea rows="10" cols="30" placeholder="پیشنهادات و انتقادات خود را بیان کنید">		
+						</textarea><br />	
+						<input type="submit" name="submit" value="ارسال" />
+					</fieldset>
 				</form>
 			</div>
 			<div class="container-slideshow">

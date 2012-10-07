@@ -96,10 +96,25 @@ div.content div.sidebar{
 	float:right;
 }
 
- .fname{
-	background-color:#1E0E09;	
+.sidebar .text{
+	border:1px solid #fff;
+	border-left:1px solid #b2b2b2;
+	border-top:1px solid #b2b2b2;
+	border-radius:3px;
+	background-color:#1E0E09;
+	width:200px;
+	display: block;
+	-webkit-transition:all 0.8s;	
+	float:right;
+	text-align:right;
+	margin-right:15px;
+	margin-bottom:10px;
 }
 
+.sidebar .text:focus,
+.sidebar .text:hover {
+	background-color : #fafafa;
+}
 div.content div.foot{
 	width:700px;
 	min-height: 270px;
