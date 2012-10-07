@@ -240,7 +240,7 @@ div.footer div.left{
 
 div.footer div.right div.facebook,div.footer div.right div.twitter{
 	width:130px;
-	height:30px;
+	height:20px;
 	float:right;
 	margin-top: 20px;
 	margin-right: 10px;
@@ -258,4 +258,17 @@ div.footer div.left div.copyright,div.footer div.left div.info{
 
 div.footer div.left div.info{
 	
+}
+
+div.facebook img,div.twitter img{
+	float:right;
+	margin-right: 10px;
+}
+div.facebook a,div.twitter a{
+	text-decoration: none;
+	color:white;
+}
+div.facebook p,div.twitter p{
+	float:right;
+	margin-right: 5px;
 }
