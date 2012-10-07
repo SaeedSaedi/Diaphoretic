@@ -186,7 +186,7 @@ div.left{
 div.header div.right h1,div.header div.right h2{
 	text-align: right;
 	width:350px;
-	float:right;
+	text-align: right;
 
 }
 div.header div.right h1{
@@ -269,12 +269,12 @@ div.facebook a,div.twitter a{
 	color:white;
 }
 div.facebook p,div.twitter p{
-	float:right;
+	text-align: right;
 	margin-right: 5px;
 }
 
 div.copyright p,div.info p{
-	float:right;
+	text-align: right;
 	color: white;
 	margin-top: 5px;
 }
@@ -299,11 +299,11 @@ div.sidebar div.txt{
 
 div.sidebar div.title p{
 	color:white;
-	float:right;
+	text-align: right;
 }
 div.sidebar div.txt p{
 	color:white;
-	float:right;
+	text-align: right;
 }
 div.sidebar div.form{
 	width:230px;
