@@ -64,7 +64,18 @@
 	</div>
 	<div class="container-content">
 		<div class="content">
-			<div class="sidebar"></div>
+			<div class="sidebar">
+					سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلاا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا	سبلا
+				<form>
+					<caption >پیشنهادات و انتقادات</caption>
+					 <input type="text" name="firstname" style="background-color:#1E0E09" placeholder="نام"><br>
+					 <input type="text" name="lastname" style="background-color:#1E0E09" placeholder="نام خانوادگی"><br>
+					 <input type="email" name="email" style="background-color:#1E0E09"><br>
+					<textarea rows="10" cols="30" style="background-color:#1E0E09">
+					
+					</textarea>
+				</form>
+			</div>
 			<div class="container-slideshow">
 				<div class="slideshow">
 					<div class="slidebar">

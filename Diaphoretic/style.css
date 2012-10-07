@@ -96,6 +96,9 @@ div.content div.sidebar{
 	float:right;
 }
 
+ .fname{
+	background-color:#1E0E09;	
+}
 
 div.content div.foot{
 	width:700px;
