@@ -6,7 +6,7 @@ body{
 	background-repeat: repeat-x;
 	background-color: black;
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -23,7 +23,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 
 div.container-head{
 	min-height: 230px;
@@ -270,7 +270,7 @@ div.facebook a,div.twitter a{
 }
 div.facebook p,div.twitter p{
 	text-align: right;
-	margin-right: 5px;
+	margin-right: 30px;
 }
 
 div.copyright p,div.info p{
@@ -317,7 +317,7 @@ div.form form{
 }
 div.form input.text{
 	margin-bottom: 8px;
-	margin-right: 10px;
+	margin-right: 5px;
 	height:20px;
 }
 div.form textarea{
