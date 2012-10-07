@@ -115,10 +115,10 @@
 			</div>
 			<div class="left">
 				<div class="copyright">
-					<p>test test test test test test test test test test test test</p>
+					<p>تست تست تست تست تست تست تست تست تست</p>
 				</div>
 				<div class="info">
-					<p>test test test test test test test test test test test test</p>
+					<p>تست تست تست تست تست تست تست تست تست</p>
 				</div>
 			</div>
 		</div>
