@@ -6,7 +6,7 @@ body{
 	background-repeat: repeat-x;
 	background-color: black;
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -23,7 +23,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 
 div.container-head{
 	min-height: 230px;
@@ -186,7 +186,7 @@ div.left{
 div.header div.right h1,div.header div.right h2{
 	text-align: right;
 	width:350px;
-	float:right;
+	text-align: right;
 
 }
 div.header div.right h1{
@@ -269,12 +269,12 @@ div.facebook a,div.twitter a{
 	color:white;
 }
 div.facebook p,div.twitter p{
-	float:right;
-	margin-right: 5px;
+	text-align: right;
+	margin-right: 30px;
 }
 
 div.copyright p,div.info p{
-	float:right;
+	text-align: right;
 	color: white;
 	margin-top: 5px;
 }
@@ -299,11 +299,11 @@ div.sidebar div.txt{
 
 div.sidebar div.title p{
 	color:white;
-	float:right;
+	text-align: right;
 }
 div.sidebar div.txt p{
 	color:white;
-	float:right;
+	text-align: right;
 }
 div.sidebar div.form{
 	width:230px;
@@ -315,13 +315,24 @@ div.sidebar div.form{
 div.form form{
 	float:right;
 }
-div.sidebar input.text{
-	text-align: right;
-	width:210px;
+div.form input.text{
 	margin-bottom: 8px;
-	margin-right: 10px;
+	margin-right: 5px;
+	height:20px;
 }
 div.form textarea{
+}
+
+div.form input.text,div.form textarea{
+	background-color:#1E0E09;
 	width:210px;
+	border:1px solid #1C0D08;
 	text-align: right;
+	padding-right: 6px;
+	padding-top: 5px;
+	color:#ece0c5;
+}
+
+div.form div.submit{
+	margin-top: 10px;
 }
