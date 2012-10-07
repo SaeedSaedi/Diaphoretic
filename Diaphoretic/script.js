@@ -22,14 +22,14 @@ $(function(){
 		part      = $('div.slidebar div'),
 		li        = $('div.selector li'),
 		slideshow = $('div.slideshow'),
-		arrow     = $('div.slideshow div.arrow'),
+		arrow     = $('div.container-slideshow div.previous,div.container-slideshow div.next'),
 		ul        = $('div.selector ul'),
 		cr        = 0,
 		AP        = false;
 	/*...............................................................................................................*/
 	/* Set Css height for slide */
 	$('div.slideshow div.selector').css({
-		width:width+'px'
+		width:width-20+'px'
 	});
 	$('div.container-slideshow div.slideshow').css({
 		width:width+'px'
@@ -155,13 +155,20 @@ $(function(){
 
 	slideshow.mouseover(function(){
 		APstop();
-		ShowArrow();
 	});
 
 	slideshow.mouseout(function(){
 		APstart();
-		HideArrow();
 	});
+
+	arrow.mouseover(function(){
+		APstop();
+	});
+
+	arrow.mouseout(function(){
+		APstart();
+	});
+	
 
 	APstart();
 	/*...............................................................................................................*/
