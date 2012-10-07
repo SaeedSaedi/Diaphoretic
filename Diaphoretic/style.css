@@ -6,7 +6,7 @@ body{
 	background-repeat: repeat-x;
 	background-color: black;
 }
-/*body > div{
+body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -23,7 +23,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}*/
+}
 
 div.container-head{
 	min-height: 230px;
