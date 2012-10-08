@@ -55,10 +55,10 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="#">home</a></li>
-					<li><a href="#">product</a></li>
-					<li><a href="#">gallery</a></li>
-					<li><a href="#">about us</a></li>
+					<li><a href="#">خانه</a></li>
+					<li><a href="#">محصولات</a></li>
+					<li><a href="#">معرق کاری</a></li>
+					<li><a href="#">درباره ما</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>
@@ -75,8 +75,7 @@
 							 <input type="text" name="firstname" class="text" placeholder="نام"><br>
 							 <input type="email" name="email" class="text" placeholder="ایمیل"><br>
 							 <input type="text" name="subject" class="text" placeholder="موضوع"><br>
-							<textarea rows="5" cols="10" placeholder="پیشنهادات و انتقادات خود را بیان کنید">		
-							</textarea><br />	
+							<textarea rows="5" cols="10" placeholder="پیشنهادات و انتقادات خود را بیان کنید"></textarea><br />	
 							<div class="submit">
 								<input type="image" name="submit" src="./image/send.gif" />
 							</div>
@@ -109,7 +108,7 @@
 				<div class="next" onclick="nextpic();"></div>
 			</div>
 			<div class="foot">
-				<h1>LAST WORK</h1>
+				<h1>اخرین کارها</h1>
 				<div class="lastwork"></div>
 				<div class="lastwork"></div>
 				<div class="lastwork"></div>
