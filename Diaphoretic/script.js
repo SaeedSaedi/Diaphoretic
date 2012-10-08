@@ -47,7 +47,7 @@ $(function(){
 	});
 	/*...............................................................................................................*/
 	/*Set Background Position of each part*/
-	ul.css({width:Length*25+'px'})
+	ul.css({width:Length*20+'px'})
 
 	part.each(function(i){
 		if(i<32){
