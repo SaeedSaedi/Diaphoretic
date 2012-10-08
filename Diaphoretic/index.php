@@ -77,7 +77,7 @@
 							 <input type="text" name="subject" class="text" placeholder="موضوع"><br>
 							<textarea rows="5" cols="10" placeholder="پیشنهادات و انتقادات خود را بیان کنید"></textarea><br />	
 							<div class="submit">
-								<input type="image" name="submit" src="./image/send.gif" />
+								<input type="image" name="submit"  src="./image/send.png" />
 							</div>
 					</form>
 				</div>
