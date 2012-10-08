@@ -51,6 +51,7 @@
 					<h2>در اینجا مطلب خود را پیدا کنید</h2>
 				</div>
 				<div class="left"></div>
+				<div class="clear"></div>
 			</div>
 			<div class="menu">
 				<ul>
@@ -60,6 +61,7 @@
 					<li><a href="#">about us</a></li>
 				</ul>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="container-content">
@@ -80,6 +82,7 @@
 							</div>
 					</form>
 				</div>
+				<div class="clear"></div>
 			</div>
 			<div class="container-slideshow">
 				<div class="slideshow">
@@ -110,7 +113,9 @@
 				<div class="lastwork"></div>
 				<div class="lastwork"></div>
 				<div class="lastwork"></div>
+				<div class="clear"></div>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="container-footer">
@@ -128,6 +133,7 @@
 						<p>تویتر</p>
 					</a>
 				</div>
+				<div class="clear"></div>
 			</div>
 			<div class="left">
 				<div class="copyright">
@@ -137,6 +143,7 @@
 					<p>تست تست تست تست تست تست تست تست تست</p>
 				</div>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 </body>

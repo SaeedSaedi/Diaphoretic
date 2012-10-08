@@ -99,7 +99,7 @@ div.content div.sidebar{
 
 div.content div.foot{
 	width:700px;
-	min-height: 270px;
+	min-height: 320px;
 	float:right;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -336,3 +336,16 @@ div.form input.text,div.form textarea{
 div.form div.submit{
 	margin-top: 10px;
 }
+
+.clear{
+	clear:both;
+	display:block;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	overflow:hidden
+}
+
