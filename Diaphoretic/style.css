@@ -342,9 +342,10 @@ div.form input.text,div.form textarea{
 	color:#ece0c5;
 	resize: none;
 }
-
 div.form div.submit{
 	margin-top: 10px;
+	float:right;
+	border-radius:4px;
 }
 
 .clear{
