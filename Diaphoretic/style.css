@@ -1,10 +1,18 @@
-@charset "utf-8";
-/* CSS Document */
-
+@font-face{
+    font-family: 'BNazanin';
+    src: url('fonts/fa/BNazanin.eot');
+    src: url('fonts/fa/BNazanin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fa/BNazanin.woff') format('woff'),
+         url('fonts/fa/BNazanin.ttf') format('truetype'),
+		 url('fonts/fa/BNazanin.svg#2MitraBoldBold') format('svg');
+	font-weight: normal;
+	font-style : normal;
+}
 body{
 	background-image: url('./image/bg.jpg');
 	background-repeat: repeat-x;
 	background-color: black;
+	font-family: 'BNazanin';
 }
 body > div{
 	outline:1px dashed black;
@@ -81,16 +89,18 @@ div.head div.menu a{
 	background-image: url('./image/menu.png');
 	text-decoration: none;
 	border-radius: 5px;
-	font-family: "SF Collegiate";
-	color:#eee;
-	text-shadow: 1px 0px #000;
-	box-shadow: 0px 0px 10px #000;
-
+	color:#fee;
+	text-shadow: 1px 0px #100;
+	box-shadow: 2px 5px 15px #000;
+	-webkit-transition:all 500ms linear;
+	-moz-transition:all 500ms linear;
 }
 div.head div.menu a:hover{
-	color:#331;	
+	color:#311;	
 	text-shadow: 1px 0px #333;
-	box-shadow: 0px 0px 2px #440;
+	box-shadow: 2px 5px 15px #200;
+	-webkit-transition:all 300ms linear;
+	-moz-transition:all 300ms linear;
 }
 
 div.content div.sidebar{
@@ -152,13 +162,13 @@ div.selector ul li{
 	margin-right: 5px;
 	border-radius: 10px;
 	cursor: pointer;
-	background-image: url('./image/circle.png')
+	background-image: url('./image/circle.png');
 }
 div.selector ul li:hover{
-	background-image: url('./image/circlea.png')
+	background-image: url('./image/circlea.png');
 }
 div.selector ul li.active{
-	background-image: url('./image/circlea.png')
+	background-image: url('./image/circlea.png');
 }
 div.container-slideshow div.previous,div.container-slideshow div.next{
 	width: 30px;
@@ -342,9 +352,9 @@ div.form input.text,div.form textarea{
 	color:#ece0c5;
 	resize: none;
 }
-
 div.form div.submit{
 	margin-top: 10px;
+	float:right;
 }
 
 .clear{
