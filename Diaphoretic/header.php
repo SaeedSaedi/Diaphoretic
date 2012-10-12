@@ -6,6 +6,9 @@
 	<link type="text/css" rel="stylesheet" href="1styles.css" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="jquery.js" ></script>
+	<?php
+		if($page == 'home'){
+	?>
 	<script type="text/javascript">
 		$(function(){
 			m = 0;
@@ -38,6 +41,9 @@
 			Length = <?php echo "$i"; ?>;
 		});
 	</script>
+	<?php
+		};
+	?>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
