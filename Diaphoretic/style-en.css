@@ -115,7 +115,6 @@ div.content div.foot{
 
 /*CSS of slideshow*/
 div.container-slideshow{
-	
 	margin: 0 auto;
 	margin-top: 10px;
 	position:relative;
@@ -134,7 +133,7 @@ div.slideshow{
 
 div.slidebar div{
 	outline: none;
-	float:right;
+	float:left;
 }
 div.slideshow div.selector{
 	height: 13px;
