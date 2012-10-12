@@ -1,7 +1,7 @@
 <?php
-	$page = 'home';
+	$page = 'product';
 	include "header.php";
 	include "menu.php";
-	include "content-index.php";
+	include "content-product.php";
 	include "footer.php";
 ?>
