@@ -85,7 +85,7 @@ div.head div.menu li{
 	margin-top: 20px;
 }
 div.head div.menu a{
-	padding:4px 48px;
+	padding:2px 48px;
 	background-image: url('./image/menu.png');
 	text-decoration: none;
 	border-radius: 5px;

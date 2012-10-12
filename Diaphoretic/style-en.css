@@ -279,8 +279,8 @@ div.facebook a,div.twitter a{
 	color:white;
 }
 div.facebook p,div.twitter p{
-	text-align: right;
-	margin-left: 30px;
+	text-align: left;
+	margin-left: 35px;
 }
 
 div.copyright p,div.info p{
@@ -315,6 +315,7 @@ div.sidebar div.title p{
 div.sidebar div.txt p{
 	color:#91c9d7;
 	text-align:left;
+	line-height: 20px;
 }
 div.sidebar div.form{
 	width:230px;
