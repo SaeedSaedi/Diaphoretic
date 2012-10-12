@@ -337,7 +337,6 @@ div.form form{
 }
 div.form input.text{
 	margin-bottom: 8px;
-	margin-left: 5px;
 	height:20px;
 }
 div.form textarea{
@@ -347,7 +346,7 @@ div.form input.text,div.form textarea{
 	background-color:#1E0E09;
 	width:210px;
 	border:1px solid #1C0D08;
-	text-align: right;
+	text-align: left;
 	padding-left: 6px;
 	padding-top: 5px;
 	color:#ece0c5;
@@ -355,7 +354,7 @@ div.form input.text,div.form textarea{
 }
 div.form div.submit{
 	margin-top: 10px;
-	float:left;
+	float:right;
 }
 
 .clear{

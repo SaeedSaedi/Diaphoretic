@@ -10,9 +10,9 @@ Kuhboom caters to busy design companies, as well as individuals, in need of grea
 							 <input type="text" name="firstname" class="text" placeholder="name"><br>
 							 <input type="email" name="email" class="text" placeholder="email"><br>
 							 <input type="text" name="subject" class="text" placeholder="subject"><br>
-							<textarea rows="5" cols="10" placeholder="Project Description"></textarea><br />	
+							<textarea rows="5" cols="7" placeholder="Project Description"></textarea><br />	
 							<div class="submit">
-								<input type="image" name="submit"  src="./image/send.png" />
+								<input type="image" name="submit"  src="./image/send.gif" />
 							</div>
 					</form>
 				</div>
