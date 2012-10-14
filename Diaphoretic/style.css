@@ -234,12 +234,30 @@ div.foot h1{
 }
 div.foot div.lastwork{
 	width:200px;
-	height:200px;
+	min-height:300px;
 	float:right;
 	margin-top:20px;
 	margin-right: 25px;
 	border:1px solid white;
 	border-radius: 4px;
+}
+
+div.foot div.lastwork  div.boxi{
+	border:1px solid red;
+	min-height:180px;
+	width:180px;
+	border-radius: 4px;
+	margin:5px auto;
+}
+
+div.foot div.boxt{
+	border:1px solid blue;
+	min-height:100px;
+	width:180px;
+	border-radius: 4px;
+	margin:5px auto;
+	color:white;
+	text-align:right;
 }
 
 div.footer div.right{
