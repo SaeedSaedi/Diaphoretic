@@ -44,15 +44,12 @@
 			<div class="foot">
 				<h1>اخرین کارها</h1>
 				<div class="lastwork">
-					<div class="boxi"></div>
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="lastwork">
-					<div class="boxi"></div>
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="lastwork">
-					<div class="boxi"></div>
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="clear"></div>
