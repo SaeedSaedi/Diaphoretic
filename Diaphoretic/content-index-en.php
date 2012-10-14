@@ -45,12 +45,15 @@ Kuhboom caters to busy design companies, as well as individuals, in need of grea
 			<div class="foot">
 				<h1>latest works</h1>
 				<div class="lastwork">
+					<img src="./product/1.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>test test test test test test test test</p><a href="#">More</a></div>
 				</div>
 				<div class="lastwork">
+					<img src="./product/2.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>test test test test test test test test</p><a href="#">More</a></div>
 				</div>
 				<div class="lastwork">
+					<img src="./product/3.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>test test test test test test test test</p><a href="#">More</a></div>
 				</div>
 				<div class="clear"></div>
