@@ -6,7 +6,7 @@
 	<link type="text/css" rel="stylesheet" href="1styles.css" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<?php
-		if($page == 'home-en'){
+		if($lang == 'en'){
 			echo "<link type='text/css' rel='stylesheet' href='style-en.css' />";
 		}
 	?>
