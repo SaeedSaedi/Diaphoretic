@@ -44,12 +44,15 @@
 			<div class="foot">
 				<h1>اخرین کارها</h1>
 				<div class="lastwork">
+					<img src="./product/1.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="lastwork">
+					<img src="./product/2.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="lastwork">
+					<img src="./product/3.jpg" width="200" height="200" alt="" />
 					<div class="boxt"><p>تست تست تست تست تستس تست تست تست تست تست</p><a href="#">...اطلاعات بیشتر</a></div>
 				</div>
 				<div class="clear"></div>
