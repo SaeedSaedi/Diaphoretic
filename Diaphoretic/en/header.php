@@ -5,7 +5,7 @@
 	<title>Diaphoretic</title>
 	<link type="text/css" rel="stylesheet" href="../1styles.css" />
 	<link type="text/css" rel="stylesheet" href="../style.css" />
-	<link type='text/css' rel='stylesheet' href='../style-en.css' />"
+	<link type='text/css' rel='stylesheet' href='../style-en.css' />
 	<script type="text/javascript" src="../jquery.js" ></script>
 	<?php
 		if($page == 'home' || 'home-en'){
