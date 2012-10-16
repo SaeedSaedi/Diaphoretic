@@ -10,8 +10,10 @@
 				</ul>
 			</div>
 		</div>
-		<div class="container">
-			
+		<div class="content">
+			<div class="title"><h1>گل و مرغ</h1></div>
+			<div class="work"></div>
 		</div>
+		<div class="clear"></div>
 	</div>
 </div>
