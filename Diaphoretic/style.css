@@ -14,7 +14,7 @@ body{
 	background-color: black;
 	font-family: 'BNazanin';
 }
-/*body > div{
+body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -31,7 +31,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}*/
+}
 div.container-head{
 	min-height: 230px;
 }
@@ -400,3 +400,65 @@ div.form div.submit{
 	overflow:hidden
 }
 
+
+/***********************************************Product-Page****************************************************************/
+
+div.container-product{
+	min-height: 370px;
+}
+div.product div.sidebar{
+	width: 250px;
+	min-height: 300px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+div.product div.container{
+	width:700px;
+	min-height: 300px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+div.sidebar div.sidemenu{
+	width:inherit;
+	height:200px;
+}
+div.sidebar div.sidemenu ul{
+	width:200px;
+	height:inherit;
+	margin:0 auto;
+	list-style-type: none;
+}
+div.sidebar div.sidemenu li{
+	float:right;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+div.sidebar div.sidemenu a{
+	padding:2px 48px;
+	background-image: url('./image/menu.png');
+	text-decoration: none;
+	border-radius: 5px;
+	color:#fee;
+	text-shadow: 1px 0px #100;
+	box-shadow: 2px 5px 15px #000;
+	-webkit-transition: all 0.5s linear;
+	   -moz-transition: all 0.5s linear;
+	    -ms-transition: all 0.5s linear;
+	     -o-transition: all 0.5s linear;
+	        transition: all 0.5s linear;
+	
+}
+div.sidebar div.sidemenu a:hover{
+	color:#311;	
+	text-shadow: 1px 0px #333;
+	box-shadow: 2px 5px 15px #200;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+	
+}
