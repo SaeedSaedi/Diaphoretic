@@ -475,6 +475,12 @@ div.content div.title h1{
 	color:#ebe0c5;
 	margin-top: 10px;
 }
-div.product div.content div.work{
+div.product div.content div.work-container{
 	min-height: 200px;
+}
+div.content div.work-container div.work{
+	width:330px;
+	height:200px;
+	float:right;
+	margin:10px;
 }
