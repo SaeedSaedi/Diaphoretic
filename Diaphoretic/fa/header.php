@@ -7,7 +7,7 @@
 	<link type="text/css" rel="stylesheet" href="../style.css" />
 	<script type="text/javascript" src="../jquery.js" ></script>
 	<?php
-		if($page == 'home' || 'home-en'){
+		if($page == 'home'){
 	?>
 	<script type="text/javascript">
 		$(function(){
