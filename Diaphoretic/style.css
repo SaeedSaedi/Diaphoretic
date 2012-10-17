@@ -515,3 +515,44 @@ div.work-container div.work:hover > div{
 div.container-pd{
 	min-height: 500px;
 }
+
+div.pd div.sidebar{
+	width: 250px;
+	margin-right: 10px;
+	margin-top: 10px;
+	min-height:300px;
+	float:right;
+}
+div.pd div.content{
+	width:700px;
+	margin-right: 10px;
+	margin-top: 10px;
+	min-height: 450px;
+	float:right;
+}
+div.pd div.sidebar div.information{
+	width:240px;
+	margin-right: 5px;
+	min-height:200px;
+	float:right;
+}
+div.pd div.sidebar div.submit{
+	width:240px;
+	margin-right: 5px;
+	margin-top: 5px;
+	min-height:30px;
+	float:right;
+}
+div.pd div.content div.image{
+	width:650px;
+	height:300px;
+	margin-right: 25px;
+	float:right;
+}
+div.pd div.content div.explain{
+	width:650px;
+	margin-top: 10px;
+	min-height:150px;
+	margin-right: 25px;
+	float:right;
+}
