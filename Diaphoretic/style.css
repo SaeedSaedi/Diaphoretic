@@ -423,7 +423,7 @@ div.product div.content{
 div.sidebar div.sidemenu{
 	width:inherit;
 	height:200px;
-	/*position:fixed;*/
+	position:fixed;
 }
 div.sidebar div.sidemenu ul{
 	width:200px;
@@ -507,4 +507,11 @@ div.work-container div.work div.hid{
 }
 div.work-container div.work:hover > div{
 	margin-top: -70px;
+}
+
+
+/***********************************************each-product-Page****************************************************************/
+
+div.container-pd{
+	min-height: 500px;
 }
