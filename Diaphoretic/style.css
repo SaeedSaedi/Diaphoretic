@@ -14,7 +14,7 @@ body{
 	background-color: black;
 	font-family: 'BNazanin';
 }
-body > div{
+/*body > div{
 	outline:1px dashed black;
 }
 body > div > div{
@@ -31,7 +31,7 @@ body > div > div > div > div > div {
 }
 body > div > div > div > div > div > div{
 	outline:1px dashed red;
-}
+}*/
 div.container-head{
 	min-height: 230px;
 }
@@ -555,4 +555,24 @@ div.pd div.content div.explain{
 	min-height:150px;
 	margin-right: 25px;
 	float:right;
+}
+
+div.pd div.sidebar div.information p{
+	text-align: right;
+	font-size: 25px;
+	color:#ece0c5;
+	line-height: 40px;
+}
+div.pd div.sidebar div.information b{
+	color: #91C9D7;
+}
+
+div.pd div.sidebar div.submit input{
+	float:right;
+}
+div.pd div.content div.explain p{
+	text-align: right;
+	font-size: 25px;
+	color:#ece0c5;
+	line-height: 30px;	
 }
