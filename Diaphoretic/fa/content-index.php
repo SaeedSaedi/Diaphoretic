@@ -11,7 +11,7 @@
 					<p>تست تست تست تست تست</p>
 				</div>
 				<div class="form">
-					<form action="sendmail.php" method="post">
+					<form action="../sendmail.php" method="post" target="ifrm">
 							<input type="text" name="firstname" class="text" placeholder="نام"><br>
 							<input type="email" name="email" class="text" placeholder="ایمیل"><br>
 							<input type="text" name="subject" class="text" placeholder="موضوع"><br>
@@ -19,6 +19,7 @@
 							<div class="submit">
 								<input type="image" name="submit"  src="../image/send.png" />
 							</div>
+							<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 					</form>
 				</div>
 				<div class="clear"></div>
