@@ -45,5 +45,6 @@
 	<?php
 		};
 	?>
+	<script type="text/javascript" src="../validator.js"></script>
 </head>
 <body>
