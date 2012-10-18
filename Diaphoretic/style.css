@@ -392,6 +392,26 @@ div.form iframe{
 	height:30px;
 	margin-top: 10px;
 }
+div.form input{
+	-webkit-transition: background-color .5s ease;
+	   -moz-transition: background-color .5s ease;
+	    -ms-transition: background-color .5s ease;
+	     -o-transition: background-color .5s ease;
+	        transition: background-color .5s ease;
+	
+}
+div.form input.ok{
+	background-color: #002203;
+}
+div.form input.err{
+	background-color: #220000;
+}
+div.form textarea.ok{
+	background-color: #002203;
+}
+div.form textarea.err{
+	background-color: #220000;
+}
 .clear{
 	clear:both;
 	display:block;
