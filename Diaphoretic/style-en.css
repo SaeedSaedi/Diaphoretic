@@ -166,3 +166,52 @@ div.sidebar div.sidemenu a{
 }
 
 /***********************************************each-product-Page****************************************************************/
+
+div.container-pd{
+	min-height: 500px;
+}
+
+div.pd div.sidebar{
+	margin-left: 10px;
+	margin-right: 0px;
+	float:left;
+}
+div.pd div.content{
+	margin-left: 10px;
+	margin-right: 0px;
+	float:left;
+}
+div.pd div.sidebar div.information{
+	margin-left: 5px;
+	margin-right: 0px;
+	float:left;
+}
+div.pd div.sidebar div.submit{
+	margin-left: 5px;
+	margin-right: 0px;
+	float:left;
+}
+div.pd div.content div.image{
+	margin-left: 25px;
+	margin-right: 0px;
+	float:left;
+}
+div.pd div.content div.explain{
+	margin-left: 25px;
+	margin-right: 0px;
+	float:left;
+}
+
+div.pd div.sidebar div.information p{
+	text-align: left;
+}
+div.pd div.sidebar div.information b{
+	color: #91C9D7;
+}
+
+div.pd div.sidebar div.submit input{
+	float:left;
+}
+div.pd div.content div.explain p{
+	text-align: left;
+}
