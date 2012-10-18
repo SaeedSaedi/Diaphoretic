@@ -387,7 +387,11 @@ div.form div.submit{
 	margin-top: 10px;
 	float:right;
 }
-
+div.form iframe{
+	width:140px;
+	height:30px;
+	margin-top: 10px;
+}
 .clear{
 	clear:both;
 	display:block;
