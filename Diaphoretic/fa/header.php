@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Diaphoretic</title>
-	<link type="text/css" rel="stylesheet" href="../1styles.css" />
-	<link type="text/css" rel="stylesheet" href="../style.css" />
-	<script type="text/javascript" src="../jquery.js" ></script>
+	<link type="text/css" rel="stylesheet" href="./1styles.css" />
+	<link type="text/css" rel="stylesheet" href="./style.css" />
+	<script type="text/javascript" src="./jquery.js" ></script>
 	<?php
 		if($page == 'home'){
 	?>
@@ -16,7 +16,7 @@
 
 			<?php 
 				/*--Folder address for image file--*/
-				$img_path = "../slideshow";
+				$img_path = "./slideshow";
 
 				$images = scandir($img_path);
 				$i = 0;
@@ -41,10 +41,10 @@
 			Length = <?php echo "$i"; ?>;
 		});
 	</script>
-	<script type="text/javascript" src="../script.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
 	<?php
 		};
 	?>
-	<script type="text/javascript" src="../validator.js"></script>
+	<script type="text/javascript" src="./validator.js"></script>
 </head>
 <body>

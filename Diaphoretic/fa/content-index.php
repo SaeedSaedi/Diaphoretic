@@ -17,7 +17,7 @@
 							<input type="text" id="subject" name="subject" class="text" placeholder="موضوع"><br>
 							<textarea name="message" id="message"rows="5" cols="10" placeholder="پیشنهادات و انتقادات خود را بیان کنید"></textarea><br />	
 							<div class="submit">
-								<input type="image" name="submit"  src="../image/send.png" />
+								<input type="image" name="submit"  src="./image/send.png" />
 							</div>
 							<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 					</form>
@@ -51,21 +51,21 @@
 			<div class="foot">
 				<h1>اخرین کارها</h1>
 				<div class="lastwork">
-					<img src="../product/1.jpg" width="200" height="200" alt="" />
+					<img src="./product/1.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>تست تست تست تست تست</p>
 						<a href="#">بیشتر</a>
 					</div>
 				</div>
 				<div class="lastwork">
-					<img src="../product/2.jpg" width="200" height="200" alt="" />
+					<img src="./product/2.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>تست تست تست تست تست</p>
 						<a href="#">بیشتر</a>
 					</div>
 				</div>
 				<div class="lastwork">
-					<img src="../product/3.jpg" width="200" height="200" alt="" />
+					<img src="./product/3.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>تست تست تست تست تست</p>
 						<a href="#">بیشتر</a>

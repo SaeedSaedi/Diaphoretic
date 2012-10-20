@@ -5,13 +5,13 @@
 			<div class="right">
 				<div class="facebook">
 					<a href="#">
-						<img src="../image/facebook.png" alt="" />
+						<img src="./image/facebook.png" alt="" />
 						<p>فیسبوک</p>
 					</a>
 				</div>
 				<div class="twitter">
 					<a href="#">
-						<img src="../image/twitter.png" alt="" />
+						<img src="./image/twitter.png" alt="" />
 						<p>توییتر</p>
 					</a>
 				</div>

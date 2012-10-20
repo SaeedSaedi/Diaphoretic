@@ -17,7 +17,7 @@
 							<input type="text" id="subject" name="subject" class="text" placeholder="subject"><br>
 							<textarea name="message" id="message"rows="5" cols="10" placeholder="Project Description"></textarea><br />	
 							<div class="submit">
-								<input type="image" name="submit"  src="../image/send.gif" />
+								<input type="image" name="submit"  src="./image/send.gif" />
 							</div>
 							<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 					</form>
@@ -51,21 +51,21 @@
 			<div class="foot">
 				<h1>Lastwork</h1>
 				<div class="lastwork">
-					<img src="../product/1.jpg" width="200" height="200" alt="" />
+					<img src="./product/1.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>test test test test test test</p>
 						<a href="#">More</a>
 					</div>
 				</div>
 				<div class="lastwork">
-					<img src="../product/2.jpg" width="200" height="200" alt="" />
+					<img src="./product/2.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>test test test test test test</p>
 						<a href="#">More</a>
 					</div>
 				</div>
 				<div class="lastwork">
-					<img src="../product/3.jpg" width="200" height="200" alt="" />
+					<img src="./product/3.jpg" width="200" height="200" alt="" />
 					<div class="boxt">
 						<p>test test test test test test</p>
 						<a href="#">More</a>
