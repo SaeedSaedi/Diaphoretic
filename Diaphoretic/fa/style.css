@@ -1,3 +1,14 @@
+/*
+Theme Name: Diaphoretic
+Theme URI: http://www.miraclewood.ir
+Description: Wordpress them for personal Diaphoretic site
+Author: Saeed Saedi
+Version: 1
+*/
+
+
+/* Global Layout
+-------------------------------------------------- */
 @font-face{
     font-family: 'BNazanin';
     src: url('./fonts/fa/BNazanin.eot');
@@ -239,7 +250,7 @@ div.foot h1{
 	margin-top: 10px;
 }
 div.foot div.lastwork{
-	width:200px;
+	width:320px;
 	height:200px;
 	float:right;
 	margin-top:20px;
