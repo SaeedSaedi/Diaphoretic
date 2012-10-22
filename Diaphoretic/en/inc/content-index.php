@@ -34,16 +34,17 @@
 							};
 						?>
 					</div>
+					<!-- Selector for slideshow (Disable)
 					<div class="selector">
 						<ul>
 							<!-- make li tag with php (selector of image) -->
 							<?php
-								for ($j=0; $j < $i ; $j++) { 
+							/*	for ($j=0; $j < $i ; $j++) { 
 									echo '<li></li>';
-								};
+								};*/
 							?>
-						</ul>
-					</div>
+					<!--</ul>
+					</div> -->
 				</div>
 				<div class="previous" onclick="previouspic();"></div>
 				<div class="next" onclick="nextpic();"></div>
