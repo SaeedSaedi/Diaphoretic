@@ -608,3 +608,15 @@ div.pd div.content div.explain p{
 	color:#ece0c5;
 	line-height: 30px;	
 }
+
+
+/***********************************************About-Us****************************************************************/
+div.container-aboutus{
+	min-height: 400px;
+}
+
+
+/***********************************************Diaphoretic****************************************************************/
+div.container-diaphoretic{
+	min-height: 400px;
+}
