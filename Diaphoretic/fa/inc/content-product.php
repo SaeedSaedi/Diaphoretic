@@ -26,7 +26,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">...بیشتر</a>
 					</div>
 				</div>
 			<?php
@@ -50,7 +50,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">...بیشتر</a>
 					</div>
 				</div>
 			<?php
@@ -74,7 +74,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">...بیشتر</a>
 					</div>
 				</div>
 			<?php
@@ -98,7 +98,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">...بیشتر</a>
 					</div>
 				</div>
 			<?php
