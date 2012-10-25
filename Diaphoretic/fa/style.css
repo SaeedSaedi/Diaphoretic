@@ -282,6 +282,15 @@ div.foot div.boxt{
 	        transition: margin 1s ease;
 	
 }
+div.foot div.boxt p{
+	margin-top: 2px;
+	padding-right: 10px;
+}
+div.foot div.boxt a{
+	padding-right: 20px;
+	text-decoration: none;
+	color:rgb(49, 243, 235);
+}
 
 div.footer div.right{
 	float:right;
@@ -519,6 +528,8 @@ div.content div.work-container div.work{
 	float:right;
 	margin:10px;
 	overflow:hidden;
+	border-radius: 5px;
+	border:1px solid white;
 }
 div.work-container div.work img{
 	z-index: -1;
@@ -539,6 +550,15 @@ div.work-container div.work div.hid{
 	     -o-transition: margin 1s ease;
 	        transition: margin 1s ease;
 	
+}
+div.work div.hid p{
+	margin-top: 2px;
+	padding-right: 10px;
+}
+div.work div.hid a{
+	padding-right: 20px;
+	text-decoration: none;
+	color:rgb(49, 243, 235);
 }
 div.work-container div.work:hover > div{
 	margin-top: -70px;
@@ -612,10 +632,44 @@ div.pd div.content div.explain p{
 
 /***********************************************About-Us****************************************************************/
 div.container-aboutus{
-	min-height: 400px;
+	min-height: 600px;
 }
-
-
+div.container-aboutus div.content div.sidebar div.txt{
+	margin-bottom: 10px;
+}
+div.aboutus{
+	width:662px;
+	height:400px;
+	float:right;
+	margin-right: 0px;
+	margin-top:10px;
+	background-image: url('./image/about.jpg');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+div.aboutus div.title{
+	width:200px;
+	height:30px;
+	float:right;
+	margin-right: 190px;
+	margin-top: 40px;
+}
+div.aboutus div.title p{
+	color: #ffc;
+	text-align: right;
+	font-size: 23px
+}
+div.aboutus div.text{
+	width:480px;
+	height:200px;
+	float:right;
+	margin-right: 170px;
+	margin-top: 10px;
+}
+div.aboutus div.text{
+	color: #91c9d7;
+	text-align: right;
+}
 /***********************************************Diaphoretic****************************************************************/
 div.container-diaphoretic{
 	min-height: 400px;
