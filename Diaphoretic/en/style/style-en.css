@@ -215,3 +215,25 @@ div.pd div.sidebar div.submit input{
 div.pd div.content div.explain p{
 	text-align: left;
 }
+
+/***********************************************About-Us****************************************************************/
+
+div.aboutus{
+	float:left;
+}
+div.aboutus div.title{
+	float:left;
+	margin-left: 40px;
+	margin-right: 0px;
+}
+div.aboutus div.title p{
+	text-align: left;
+}
+div.aboutus div.text{
+	float:left;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+div.aboutus div.text{
+	text-align: left;
+}
