@@ -28,32 +28,24 @@
 			</div>
 			<div class="foot">
 				<h1>اخرین کارها</h1>
-
 			<?php
 				$i = 0;
 				query_posts(array('post_type' => 'product'));
 				while(have_posts() && $i < 2){
 				the_post();
 			?>
-
-
 				<div class="lastwork">
 					<?php the_post_thumbnail() ?>
 					<div class="boxt">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">...بیشتر</a>
 					</div>
 				</div>
-
-
 			<?php
 				$i++;
 				};
 			?>
-
-
-
 				<div class="clear"></div>
 			</div>
 			<div class="clear"></div>

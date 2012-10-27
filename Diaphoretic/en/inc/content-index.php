@@ -42,7 +42,7 @@
 					<div class="boxt">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">بیشتر</a>
+						<a href="<?php the_permalink() ?>">More...</a>
 					</div>
 				</div>
 
