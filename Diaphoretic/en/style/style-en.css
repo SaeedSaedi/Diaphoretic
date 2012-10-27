@@ -59,6 +59,10 @@ div.header div.right h2{
 	margin-right: 0px;
 
 }
+div.header div.left div.img{
+	margin-right: 70px;
+	margin-left: 0px;
+}
 div.foot h1{
 	width:180px;
 }
