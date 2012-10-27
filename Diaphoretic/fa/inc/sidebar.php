@@ -1,12 +1,12 @@
 <div class="sidebar">
 	<div class="title">
-		<p>تست تست تست تست تست</p>
+		<p>سفارش کار اختصاصی</p>
 	</div>
 	<div class="txt">
-		<p>تست تست تست تست تست</p>
+		<p>برای سفارش یک کار اختصاصی بعد از تهیه عکس از کار مورد نظر و اپلود آن فرم زیر را پر کرده و  متنی شامل ادرس عکس مورد نظر و شماره تلفن خود برای ما ارسال نمایید تیم ما در اولین فرصت با شما تماس خواهد گرفت</p>
 	</div>
 	<div class="title">
-		<p>تست تست تست تست تست</p>
+		<p>نظر خود را به اطلاع ما برسانید</p>
 	</div>
 	<div class="form">
 		<form action="<?php bloginfo('template_url') ?>/script/sendmail.php" method="post" target="ifrm" class="contact">
