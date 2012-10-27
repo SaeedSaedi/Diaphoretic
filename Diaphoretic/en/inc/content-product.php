@@ -3,15 +3,15 @@
 		<div class="sidebar">
 			<div class="sidemenu">
 				<ul>
-					<li><a href="#">Flower and Bird</a></li>
-					<li><a href="#">Line Style</a></li>
-					<li><a href="#">Miniature</a></li>
-					<li><a href="#">khatoon</a></li>
+					<li><a href="#flower">Flower and Bird</a></li>
+					<li><a href="#line">Line Style</a></li>
+					<li><a href="#mini">Miniature</a></li>
+					<li><a href="#khatoon">khatoon</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="content">
-			<div class="title">
+			<div class="title" id="flower">
 				<h1>Flower and Bird</h1>
 			</div>
 			<div class="work-container">
@@ -26,7 +26,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">more</a>
+						<a href="<?php the_permalink() ?>">More...</a>
 					</div>
 				</div>
 			<?php
@@ -35,7 +35,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-		<div class="title">
+		<div class="title" id="line">
 				<h1>Line Style</h1>
 			</div>
 			<div class="work-container">
@@ -50,7 +50,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">more</a>
+						<a href="<?php the_permalink() ?>">More...</a>
 					</div>
 				</div>
 			<?php
@@ -59,7 +59,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-			<div class="title">
+			<div class="title" id="mini">
 				<h1>Miniature</h1>
 			</div>
 			<div class="work-container">
@@ -74,7 +74,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">more</a>
+						<a href="<?php the_permalink() ?>">More...</a>
 					</div>
 				</div>
 			<?php
@@ -83,7 +83,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-			<div class="title">
+			<div class="title" id="khatoon">
 				<h1>khatoon</h1>
 			</div>
 			<div class="work-container">
@@ -98,7 +98,7 @@
 					<div class="hid">
 						<p><b><?php the_title() ?></b></p>
 						<p><?php the_excerpt() ?></p>
-						<a href="<?php the_permalink() ?>">more</a>
+						<a href="<?php the_permalink() ?>">More...</a>
 					</div>
 				</div>
 			<?php

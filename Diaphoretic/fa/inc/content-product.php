@@ -3,15 +3,15 @@
 		<div class="sidebar">
 			<div class="sidemenu">
 				<ul>
-					<li><a href="#">گل و مرغ</a></li>
-					<li><a href="#">مینیاتور</a></li>
-					<li><a href="#">خاتون</a></li>
-					<li><a href="#">خط</a></li>
+					<li><a href="#bird">گل و مرغ</a></li>
+					<li><a href="#mini">مینیاتور</a></li>
+					<li><a href="#khatoon">خاتون</a></li>
+					<li><a href="#khat">خط</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="content">
-			<div class="title">
+			<div class="title" id="bird">
 				<h1>گل و مرغ</h1>
 			</div>
 			<div class="work-container">
@@ -35,7 +35,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-		<div class="title">
+		<div class="title" id="mini">
 				<h1>مینیاتور</h1>
 			</div>
 			<div class="work-container">
@@ -59,7 +59,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-			<div class="title">
+			<div class="title" id="khatoon">
 				<h1>خاتون</h1>
 			</div>
 			<div class="work-container">
@@ -83,7 +83,7 @@
 			?>
 			<div class="clear"></div>
 			</div>
-			<div class="title">
+			<div class="title" id="khat">
 				<h1>خط</h1>
 			</div>
 			<div class="work-container">
