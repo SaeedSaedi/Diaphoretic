@@ -7,7 +7,12 @@
 					<h1>به سایت ما خوش امدید</h1>
 					<h2>در اینجا مطلب خود را پیدا کنید</h2>
 				</div>
-				<div class="left"></div>
+				<div class="left">
+					<div class="img">
+						<a href=""><img src="<?php bloginfo('template_url') ?>/image/iran.png" alt=""></a>
+						<a href=""><img src="<?php bloginfo('template_url') ?>/image/usa.png" alt=""></a>
+					</div>
+				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="menu">
