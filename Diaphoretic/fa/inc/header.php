@@ -11,7 +11,6 @@
 		$(function(){
 			m = 0;
 			path = Array();
-
 			<?php 
 				/*--Folder address for image file--*/
 				$template_path = get_template_directory();
@@ -27,7 +26,6 @@
 					if($img_type == 'jpg'){
 						$path[$i] = $template_url.$img_path."/".$image;
 			?>
-
 			path[m] = <?php echo "'$path[$i]'"; ?>;
 			m++;
 			
@@ -37,7 +35,6 @@
 					};
 				};
 			?>
-
 			Length = <?php echo "$i"; ?>;
 		});
 	</script>
