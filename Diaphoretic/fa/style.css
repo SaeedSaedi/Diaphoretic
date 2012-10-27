@@ -233,6 +233,12 @@ div.header div.right h2{
 	margin-top: 10px;
 	margin-right: 35px;
 }
+div.header div.left div.img{
+	width:150px;
+	height:50px;
+	margin-left: 70px;
+	margin-top: 30px;
+}
 
 div.container-head div.corner{
 	position:fixed;
@@ -347,8 +353,9 @@ div.copyright p,div.info p{
 	color: white;
 	margin-top: 5px;
 }
-div.info p{
-
+div.info a{
+	text-decoration: none;
+	color:#888;
 }
 
 
@@ -374,6 +381,7 @@ div.sidebar div.title p{
 div.sidebar div.txt p{
 	color:#91c9d7;
 	text-align: right;
+	line-height: 20px;
 }
 div.sidebar div.form{
 	width:230px;
@@ -673,4 +681,49 @@ div.aboutus div.text{
 /***********************************************Diaphoretic****************************************************************/
 div.container-diaphoretic{
 	min-height: 400px;
+}
+div.container-diaphoretic div.content div.sidebar div.txt{
+	margin-bottom: 10px;
+}
+div.container-diaphoretic div.content div.about{
+	width:700px;
+	min-height:1250px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+div.content div.about div.title{
+	height:40px;
+	width:400px;
+	color: #ffc;
+	text-align: right;
+	font-size: 23px;
+	float:right;
+	margin-right:10px;
+}
+div.content div.about div.text{
+	height:100px;
+	width:500px;
+	float:right;
+	clear:right;
+	margin-top: 10px;
+	margin-right:10px;
+	color: rgb(157, 175, 162);
+	text-align: right;
+	line-height: 20px;
+}
+div.content div.about div.text b{
+	display:block;
+	color: #ffc;
+	font-size: 17px;
+	margin-top:5px;
+}
+div.content div.about div.long{
+	height:170px;
+}
+div.content div.about div.bot{
+	margin-bottom: 20px;
+}
+div.text b.author{
+	float:left;
 }
