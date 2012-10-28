@@ -70,6 +70,9 @@ div.head div.logo{
 	margin-top:10px;
 	margin-right: 10px;
 }
+div.head div.logo img{
+	margin-top: 30px;
+}
 
 div.head div.header, div.head div.menu{
 	width:700px;
@@ -353,6 +356,10 @@ div.copyright p,div.info p{
 	color: white;
 	margin-top: 5px;
 }
+div.copyright a{
+	text-decoration: none;
+	color:#888;
+}
 div.info a{
 	text-decoration: none;
 	color:#888;
@@ -600,11 +607,7 @@ div.pd div.sidebar div.information{
 	float:right;
 }
 div.pd div.sidebar div.submit{
-	width:240px;
-	margin-right: 5px;
-	margin-top: 5px;
-	min-height:30px;
-	float:right;
+	margin-right: -20px;
 }
 div.pd div.content div.image{
 	margin-right: 25px;
@@ -637,6 +640,13 @@ div.pd div.content div.explain p{
 	line-height: 30px;	
 }
 
+div.submit div.sidebar div.txt{
+	margin-bottom: 0px;
+	height:100px;
+}
+div.submit div.sidebar textarea{
+	display:none;
+}
 
 /***********************************************About-Us****************************************************************/
 div.container-aboutus{
@@ -677,6 +687,21 @@ div.aboutus div.text{
 div.aboutus div.text{
 	color: #91c9d7;
 	text-align: right;
+}
+div.aboutus div.text p{
+	margin-top: 20px;
+	line-height: 20px;
+}
+div.aboutus div.text b{
+	color: #ffc;
+	font-size: 17px;
+	margin-top:5px;
+}
+div.aboutus p.left b{
+	display:block;
+	float:left;
+	margin-top: 0px;
+	margin-left: 10px;
 }
 /***********************************************Diaphoretic****************************************************************/
 div.container-diaphoretic{
