@@ -19,7 +19,7 @@
 <?php
 	error_reporting(E_ALL ^ E_NOTICE);
 
-	$admin = 'info@mydomain.com';
+	$admin = 'info@miraclewood.ir';
 
 	$name    = $_POST['firstname'];
 	$email   = $_POST['email'];
