@@ -1,16 +1,16 @@
 	<div class="container-head">
-		<div class="corner"></div>
+		<a href="mailto:info@miraclewood.ir" title=""><div class="corner"></div></a>
 		<div class="head">
-			<div class="logo"></div>
+			<div class="logo"><img src="<?php bloginfo('template_url') ?>/image/logo.png" alt=""></div>
 			<div class="header">
 				<div class="right">
-					<h1>به سایت ما خوش امدید</h1>
-					<h2>در اینجا مطلب خود را پیدا کنید</h2>
+					<h1>اعجاز چوب</h1>
+					<h2>هنر معرق کاری چوب</h2>
 				</div>
 				<div class="left">
 					<div class="img">
-						<a href=""><img src="<?php bloginfo('template_url') ?>/image/iran.png" alt=""></a>
-						<a href=""><img src="<?php bloginfo('template_url') ?>/image/usa.png" alt=""></a>
+						<a href="http://miraclewood.ir/"><img src="<?php bloginfo('template_url') ?>/image/iran.png" alt=""></a>
+						<a href="http://miraclewood.ir/en"><img src="<?php bloginfo('template_url') ?>/image/usa.png" alt=""></a>
 					</div>
 				</div>
 				<div class="clear"></div>
