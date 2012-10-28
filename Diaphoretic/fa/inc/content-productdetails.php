@@ -12,7 +12,33 @@
 				<p>قیمت :<b> <?php echo get_post_meta(get_the_ID(),'product_price',true); ?></b></p>
 			</div>
 			<div class="submit">
-				<input type="button" value="سفارش" />
+				<div class="sidebar">
+					<div class="title">
+						<p>سفارش این کار</p>
+					</div>
+					<div class="txt">
+						<p>برای سفارش این کار فرم زیر را پر کرده و سپس بر روی دکمه ارسال کلیک نمایید تیم ما در اولین فرصت با شما تماس خواهد گرفت</p>
+					</div>
+					<div class="form">
+						<form action="<?php bloginfo('template_url') ?>/script/sendmail.php" method="post" target="ifrm" class="contact">
+								<input type="text" id="firstname" name="firstname" class="text" placeholder="نام"><br>
+								<input type="email" id="email" name="email" class="text" placeholder="ایمیل"><br>
+								<input type="text" id="subject" name="subject" class="text" placeholder="شماره تماس"><br>
+								<textarea name="message" id="message"rows="5" cols="10" placeholder="">
+									<?php echo get_post_meta(get_the_ID(),'product_name',true); ?>
+									<?php echo get_post_meta(get_the_ID(),'product_author',true); ?>
+									<?php echo get_post_meta(get_the_ID(),'product_group',true); ?>
+									<?php echo get_post_meta(get_the_ID(),'product_price',true); ?>
+									<?php the_permalink() ?>
+								</textarea><br />	
+								<div class="submit">
+									<input type="image" name="submit"  src="<?php bloginfo('template_url') ?>/image/send.png" />
+								</div>
+								<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
+						</form>
+					</div>
+					<div class="clear"></div>
+				</div>
 			</div>
 		</div>
 		<div class="content">
