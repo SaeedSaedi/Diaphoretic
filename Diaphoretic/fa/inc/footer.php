@@ -19,7 +19,7 @@
 			</div>
 			<div class="left">
 				<div class="copyright">
-					<p>کلیه حقوق این سایت متعلق است به شرکت طراحی وب سایت</p>
+					<p>کلیه حقوق این سایت متعلق است به شرکت طراحی وب سایت<a href=""></a> </p>
 				</div>
 				<div class="info">
 					<p>طراحی شده توسط <a href="mailto:saeed.saedi.s@gmail.com" title="">سعید</a></p>
