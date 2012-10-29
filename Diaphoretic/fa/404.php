@@ -1,8 +1,8 @@
 <?php
 	/*
-		Template Name: about us
+		Template Name: 404
 	*/
-	$page = 'aboutus';
+	$page = '404';
 
 	get_template_part("inc/header");
 	get_template_part("inc/menu");
