@@ -88,7 +88,7 @@ div.head div.menu{
 	height: 50px;	
 }
 div.head div.menu ul{
-	width:600px;
+	width:610px;
 	height:inherit;
 	margin:0 auto;
 	list-style-type: none;
@@ -99,7 +99,8 @@ div.head div.menu li{
 	margin-top: 20px;
 }
 div.head div.menu a{
-	padding:2px 48px;
+	display:block;
+	padding:5px 48px;
 	background-image: url('./image/menu.png');
 	text-decoration: none;
 	border-radius: 5px;
@@ -493,11 +494,12 @@ div.sidebar div.sidemenu ul{
 div.sidebar div.sidemenu li{
 	float:right;
 	margin-right: 10px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 5px;
 }
 div.sidebar div.sidemenu a{
-	padding:2px 48px;
+	display:block;
+	padding:5px 48px;
 	background-image: url('./image/menu.png');
 	text-decoration: none;
 	border-radius: 5px;
